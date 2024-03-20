@@ -46,8 +46,8 @@ const localDbConfig = {
 
 const localDbConfigAdmin = {
   host: "mysql-v3ke",
-  user: "root",
-  password: "RwX1gKlFzkOvHsfpvml41wL7DzldnAgxZoKHT5YJQwk=",
+  user: "mysql",
+  password: "dk9RpozNooZv7Z6OWLJN1ux8xef3Tvjdp0BlnihlXGE=",
   database: "/xg6dzqpgt8rte79h".substr(1),
   port: 3306,
 };
