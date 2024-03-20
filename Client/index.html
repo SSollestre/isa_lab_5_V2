@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Database Query Interface</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 id="header"></h2>
+      <textarea
+        id="sqlQuery"
+        class="query-input"
+        rows="4"
+        placeholder=""
+      ></textarea
+      ><br />
+      <button id="executeQuery" class="button"></button>
+      <!-- Button for inserting preset data -->
+      <button id="insertPresetData" class="button"></button>
+      <div id="messageArea"></div>
+
+      <div id="queryResults" class="results"></div>
+    </div>
+
+    <!-- scripts -->
+    <script src="lang/messages/en/user.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

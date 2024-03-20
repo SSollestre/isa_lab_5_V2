@@ -1,0 +1,66 @@
+/* css */
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.query-input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #005a87;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #003d5b;
+}
+
+.results {
+  background-color: #eaeaea;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+#messageArea {
+  background-color: #eaeaea;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+
+#queryResults table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#queryResults th,
+#queryResults td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#queryResults tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
