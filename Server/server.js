@@ -5,28 +5,28 @@ require("dotenv").config();
 const cors = require("cors");
 
 // Parse JAWSDB_URL from environment variable to get database connection details
-const dbUrl = new URL(process.env.JAWSDB_URL);
-const { hostname, username, password, pathname, port } = dbUrl;
+// const dbUrl = new URL(process.env.JAWSDB_URL);
+// const { hostname, username, password, pathname, port } = dbUrl;
 
-console.log(
-  hostname,
-  "and",
-  username,
-  "and",
-  password,
-  "and",
-  pathname,
-  "and",
-  port
-);
+// console.log(
+//   hostname,
+//   "and",
+//   username,
+//   "and",
+//   password,
+//   "and",
+//   pathname,
+//   "and",
+//   port
+// );
 
-const remoteDbConfig = {
-  host: dbUrl.hostname,
-  user: dbUrl.username,
-  password: dbUrl.password,
-  database: dbUrl.pathname.substr(1),
-  port: dbUrl.port,
-};
+// const remoteDbConfig = {
+//   host: dbUrl.hostname,
+//   user: dbUrl.username,
+//   password: dbUrl.password,
+//   database: dbUrl.pathname.substr(1),
+//   port: dbUrl.port,
+// };
 
 const localDbConfig = {
   host: "localhost",
